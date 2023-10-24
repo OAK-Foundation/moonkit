@@ -5376,6 +5376,19 @@ dependencies = [
 ]
 
 [[package]]
+name = "maintenance-primitives"
+version = "0.1.0"
+dependencies = [
+ "cumulus-primitives-core",
+ "frame-support",
+ "frame-system",
+ "pallet-migrations",
+ "sp-core",
+ "sp-runtime",
+ "sp-std",
+]
+
+[[package]]
 name = "maplit"
 version = "1.0.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
